@@ -4,9 +4,11 @@ scalaVersion := "2.11.8"
 
 val akkaV = "2.4.2"
 val catsV = "0.4.1"
-val typedActorsV = "1.6.0"
+val typedActorsV = "2.0.0-a24-c3a146559115ef742edb8c79f9db53ba1e73c40e"
 val scalaTestV = "2.2.6"
 val scalaCheckV = "1.12.5"
+
+resolvers += Resolver.bintrayRepo("knutwalker", "maven")
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor"           % akkaV,
