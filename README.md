@@ -1,2 +1,3 @@
-# orderbook-example
-An implementation of different order book matching algorithms based on Akka.
+# Limit Order Books
+
+This is a collection of different matching algorithms for limit order books (LOB) based on Akka.
